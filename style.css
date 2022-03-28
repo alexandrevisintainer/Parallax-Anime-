@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    padding: 40px 4%;
+    font-family:Helvetica, sans-serif;
+    color: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section h1 {
+    margin-bottom: 20px;
+}
+.text {
+    background-color: #e9ecef;
+}
+section:nth-of-type(1) {
+    background-image: url(./images/Tokyo.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-of-type(3) {
+    background-image: url(./images/baki.png);
+    height: 500px;
+}
+section:nth-of-type(5) {
+    background-image: url(./images/deathnote.png);
+    height: 500px;
+}
+section:nth-of-type(7) {
+    background-image: url(./images/kimetsu.png);
+    height: 500px;
+}
+section:nth-of-type(9) {
+    background-image: url(./images/hunterxhunter.png);
+    height: 500px;
+}
+section:nth-of-type(11) {
+    background-image: url(./images/hellsing.png);
+    height: 100vh;
+}
+section h3 {
+    margin-top: 20px;
+}
+.titulo h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+}
+.titulo div {
+    display: flex;
+    justify-content: center;
+    background-color: #e9ecef;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
